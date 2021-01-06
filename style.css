@@ -9,6 +9,10 @@ ul {
     margin-right: 2%;
 }
 
+li {
+    float: right;
+}
+
 li a {
     font-weight: 500;
     text-decoration: none;
@@ -17,10 +21,6 @@ li a {
 
 li a:hover {
     color: tomato
-}
-
-li {
-    float: right;
 }
 
 div img {
