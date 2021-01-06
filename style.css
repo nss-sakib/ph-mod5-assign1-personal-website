@@ -15,6 +15,10 @@ li a {
     padding: 15px;
 }
 
+li a:hover {
+    color: tomato
+}
+
 li {
     float: right;
 }
@@ -26,7 +30,7 @@ div img {
 .name {
     font-family: 'Bebas Neue', cursive;
     font-weight: 200;
-    font-size: 400%;
+    font-size: 75px;
     line-height: 20%;
 }
 
@@ -55,38 +59,28 @@ div img {
     border-radius: 20px;
 }
 
-.mini-width{
+.mini-width {
     float: left;
     width: 8%;
     padding-left: 5%;
 }
 
-.big-width{
+.big-width {
     float: left;
     width: 80%;
     padding-left: 5%;
 }
 
-.inquiry-title {
-    padding-left: 20%;
-    padding-top: 11%;
-    font-weight: 600;
-    font-size: 45px;
-    float: left;
-    color: white;
-}
-
-.inquiry-chat {
-    margin-top: 12.5%;
-    margin-right: 20%;
-    float: right;
-}
-
-.testimonial-group{
-    height: 120px;
-}
-
 .button {
+    color: white;
+    font-weight: 700px;
+    text-decoration: none;
+    background-image: linear-gradient(0deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.download {
     color: white;
     font-weight: 700px;
     text-decoration: none;
@@ -114,12 +108,16 @@ div img {
     height: 500px;
 }
 
-#about, #work{
+#about, #work {
     height: 550px;
 }
 
-#testimonial{
+#testimonial {
     height: 400px;
+}
+
+#testimonial-group {
+    height: 120px;
 }
 
 #inquiry {
@@ -128,4 +126,18 @@ div img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
+}
+
+#inquiry-group {
+    color: white;
+    height: 220px;
+    padding-top: 180px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#inquiry-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
 }
