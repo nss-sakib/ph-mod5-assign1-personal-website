@@ -1,0 +1,115 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 2%;
+}
+
+li a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 15px;
+}
+
+li {
+    float: right;
+}
+
+.name {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    font-size: 400%;
+    line-height: 20%;
+}
+
+.heading {
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 20%;
+}
+
+.highlight {
+    color: coral;
+}
+
+.half-width {
+    width: 40%;
+    padding-left: 5%;
+    float: left;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.small-width {
+    width: 25%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 1px 1px 50px lightgray;
+    border-radius: 20px;
+}
+
+.small-width img {
+    width: 100%;
+}
+
+.button {
+    color: white;
+    font-weight: 700px;
+    text-decoration: none;
+    background-image: linear-gradient(0deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.icon-image {
+    float: left;
+    width: 22%;
+    padding: 5%;
+}
+
+.icon {
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+.center {
+    text-align: center;
+}
+
+#front {
+    height: 500px;
+}
+
+#about, #work {
+    height: 550px;
+}
+
+#inquiry {
+    height: 400px;
+    background-image: url("images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.inquiry-title {
+    padding-left: 20%;
+    padding-top: 7%;
+    font-weight: 600;
+    font-size: 45px;
+    float: left;
+    color: white;
+}
+
+.inquiry-chat {
+    margin-top: 8.5%;
+    margin-right: 20%;
+    float: right;
+}
